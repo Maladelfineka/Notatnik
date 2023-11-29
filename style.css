@@ -1,0 +1,33 @@
+body {
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.save {
+    margin-top: 37px;
+    background-color: lightgreen;
+    height: 40px;
+    width: 88px;
+    font-size: 18px;
+}
+
+.delete {
+    background-color: red;
+    height: 40px;
+    width: 88px;
+    font-size: 18px;
+}
+.text {
+    font-size: 20px;
+    height: 551px;
+    width: 636px;
+}
+
+h1 {
+    font-size: 35px;
+}
