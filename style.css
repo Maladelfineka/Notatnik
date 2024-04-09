@@ -1,33 +1,41 @@
 body {
-    background: gray;
+    background-color: blueviolet;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    gap: 20px;
+    flex-direction: column;
+    
 }
 
-.save {
-    margin-top: 37px;
-    background-color: lightgreen;
-    height: 40px;
-    width: 88px;
-    font-size: 18px;
-}
-
-.delete {
-    background-color: red;
-    height: 40px;
-    width: 88px;
-    font-size: 18px;
-}
 .text {
-    font-size: 20px;
-    height: 551px;
-    width: 636px;
+    display: flex;
+    height: 325px;
+    width: 750px;
+    
+}
+.add {
+
+    background-color: green;
+    color: #fff;
+    width: 100px;
+    -webkit-text-stroke-width: 0.5px;
+    border-radius: 10px;
+    border-color: #fff;
+}   
+.delete {
+
+    background-color: red;
+    width: 100px;
+    -webkit-text-stroke-width: 0.5px;
+    border-radius: 10px;
+    border-color: #000000;
+
 }
 
-h1 {
-    font-size: 35px;
+.button {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.notatki1{
+    color: wheat;
 }
