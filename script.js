@@ -3,7 +3,9 @@ let root = document.querySelector('.root');
 let id = '';
 
 let notatki = localStorage.getItem("notatki");
-
+if(!notatki){
+    localStorage.setItem("notatki", '')
+}
 let notatkiArray = localStorage.getItem("notatki").split(' ');
 
 localStorage.removeItem(id);
